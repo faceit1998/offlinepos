@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OfflinePOS</title>
+  <style>
+    :root { --bg: #0f1020; --card: #181a2e; --text: #e8e9f3; --muted: #a3a6c2; --accent: #6366f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+    h1 { font-size: 34px; margin: 0 0 6px; }
+    .sub { color: var(--muted); margin: 0 0 32px; }
+    .card { background: var(--card); border-radius: 14px; padding: 22px 24px; margin-bottom: 18px; }
+    h2 { font-size: 19px; margin: 0 0 10px; }
+    ul { margin: 0; padding-left: 20px; }
+    a { color: #9ea1ff; }
+    footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>OfflinePOS</h1>
+  <p class="sub">Do'konlar uchun internetsiz ishlaydigan kassa dasturi (Windows) · Offline point-of-sale app for small shops</p>
+
+  <div class="card">
+    <h2>Imkoniyatlar</h2>
+    <ul>
+      <li>Savdo, ombor, qarzlar, smenalar va hisobotlar — hammasi kompyuterning o'zida, internetsiz.</li>
+      <li>Naqd, plastik va aralash (naqd + plastik) to'lov.</li>
+      <li>Har kuni avtomatik zaxira nusxa va bir tugmada tiklash.</li>
+      <li>Ixtiyoriy: zaxirani foydalanuvchining o'z Google Drive'iga saqlash.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Google Drive zaxirasi</h2>
+    <p>Foydalanuvchi o'zi xohlasa, dasturda Google akkauntiga kiradi. Shundan keyin dastur bazaning zaxira nusxasini
+      foydalanuvchining <b>o'z</b> Google Drive'idagi "OfflinePOS zaxira" papkasiga yuklaydi va kerak bo'lganda undan tiklaydi.
+      Dastur faqat o'zi yaratgan fayllarni ko'radi (<code>drive.file</code> ruxsati).</p>
+    <p>Batafsil: <a href="privacy.html">Maxfiylik siyosati / Privacy Policy</a></p>
+  </div>
+
+  <div class="card">
+    <h2>About (English)</h2>
+    <p>OfflinePOS is a Windows point-of-sale application that stores all shop data locally on the user's computer.
+      Optionally, the user can sign in with Google to keep backup copies of the shop database in their own Google Drive.
+      The app only accesses files it created itself.</p>
+  </div>
+
+  <footer>
+    Aloqa / Contact: <a href="mailto:ffaceit1998@gmail.com">ffaceit1998@gmail.com</a> ·
+    <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a>
+  </footer>
+</main>
+</body>
+</html>
